@@ -1,0 +1,130 @@
+header{
+    background-color:#ffffff;
+    display: flex;
+    }
+.logo{
+    width:10%;
+    margin-top:4%;
+    }
+body{
+    font-family: "Inconsolata",'Arial Narrow', sans-serif;
+    margin:0;
+    padding:0;
+    }
+.name{
+    color:#3a3a3a;
+    font-weight: 100;
+    font-family:"Inconsolata",'Arial Narrow', sans-serif;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+}
+ul li{
+
+    list-style: none;
+    margin:2%;
+}
+
+ul li a{
+    color:#9b9b9b;
+    text-decoration: none;
+    }
+ 
+.imagecontainer{
+    position: relative;
+    
+}
+.image1{
+    width: 100%;
+}
+.imagebottom{
+    position:absolute;
+    width:100%;
+    margin-top:-5px;
+}
+.circlecontainer{
+    padding:1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.circles{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    align-items: center;
+    /* justify-content: center; */
+}
+.image{
+    /* justify-content: center; */
+    width:40%;
+    /* align-items: center; */
+}  
+.title{
+    font-size: 70%;
+    color: #64a0f3;
+    text-align: center;
+
+}
+.text{
+    font-size: 80%;
+    color:#7f8082;
+    text-align: center;
+}
+.words{
+    color: #64a0f3;
+    text-align: center;
+
+}
+.shoppingcart{
+    display: flex;
+    flex-direction: row;
+    justify-content:between;
+    margin-top: 0%;
+    width: 100%;
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    width: 100% ;
+    
+}
+.basket{
+    width: 90%;
+    margin-left: 10%;
+}
+.bullettextcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left:10%;
+    padding-right: 5%;
+}
+
+.bullettext{
+    color:#7f8082;
+    margin-top:30%;
+    text-align: center;
+    margin-bottom:1%;
+
+}
+.bullettext p{
+    color:#6d6f71;
+    text-align:center;
+    margin-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.copy{
+    margin-top: 5%;
+    border-top: 1px  solid #6d6f71;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    font-size: .8em;
+    color:#6d6f71;
+
+}
+/* ************************************************************ */
+
